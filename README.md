@@ -11,7 +11,7 @@ docker build .
 ## Using the image
 
 ```sh
-docker run -v <host_dir>:<container_dir> openlabs/docker-wkhtmltopdf http://www.google.com <container_dir>/output.pdf
+docker run -v <host_dir>:<container_dir> hariantoatwork/docker-wkhtmltopdf http://www.google.com <container_dir>/output.pdf
 ```
 
 The mounted volume can be used to send local html files and to save
